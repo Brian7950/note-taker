@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const uuid = require('uuid');
+// const uuid = require('uuid');
 const fs = require('fs');
 const notes = require('./db/db.json');
 
@@ -8,7 +8,7 @@ const notes = require('./db/db.json');
 const app = express();
 
 //what port to listen to for responses
-const Port = 3001;
+const PORT = 3001;
 
 //middleware
 app.use(express.urlencoded(({ extended: true})));
@@ -44,8 +44,8 @@ app.get('/notes', (req, res) => {
 });
 
 //listen to port
-app.listen(Port, () => {
-    console.log(`I'm listening to you on port ${Port}!`);
+app.listen(PORT, () => {
+    console.log(`I'm listening to you on port ${PORT}!`);
 });
 
 
