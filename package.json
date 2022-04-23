@@ -5,11 +5,18 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
-    
+    "start": "node server.js"
   },
-  "author": "Brian Hernandez",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brian7950/note-taker.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brian7950/note-taker/issues"
+  },
+  "homepage": "https://github.com/Brian7950/note-taker#readme",
   "dependencies": {
     "express": "^4.17.3"
   }
