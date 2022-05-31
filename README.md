@@ -23,4 +23,4 @@
 ## Deployed-app: <a name="app"></a>
 ### https://limitless-gorge-38138.herokuapp.com/notes
 
-## Image 
+## Image ![note-taker-gitrm](https://user-images.githubusercontent.com/97642221/171252986-0fd45faf-89b9-4039-ac45-65e8e308ed4a.JPG)
